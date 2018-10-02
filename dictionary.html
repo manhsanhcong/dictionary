@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var eng = ['pen','book','erase','hat','shirt','notebook','paper'];
+    var vie = ['bút','sách','tẩy','mũ','áo','sổ tay','giấy'];
+    var input = prompt("Enter the english word:");
+    for (i = 0; i < eng.length; i++) {
+        if (input === eng[i]) {
+            var index = i;
+            alert(eng[i] + '  mean: ' + vie[i]);
+            break;
+        }else {
+            alert("I\'m sorry, we don\'t have this word");
+        }
+    }
+</script>
+</body>
+</html>
